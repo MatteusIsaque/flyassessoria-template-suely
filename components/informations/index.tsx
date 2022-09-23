@@ -43,6 +43,15 @@ export default function ExemploLashDesigner() {
       <div className={styles.passos}>
         <div className={styles.passosParaCredito}>
           <div>
+            <Image src={Quarto} />
+          </div>
+          <div>
+            <h2>Parcelas</h2>
+            <p>Avaliar as parcelas do empréstimo.</p>
+          </div>
+        </div>
+        <div className={styles.passosParaCredito}>
+          <div>
             <Image src={Primeiro} />
           </div>
           <div>
@@ -68,15 +77,7 @@ export default function ExemploLashDesigner() {
             <p>Estando tudo certo, seus documentos são enviados para aprovar seu crédito.</p>
           </div>
         </div>
-        <div className={styles.passosParaCredito}>
-          <div>
-            <Image src={Quarto} />
-          </div>
-          <div>
-            <h2>Parcelas</h2>
-            <p>Avaliar as parcelas do empréstimo.</p>
-          </div>
-        </div>
+
       </div>
 
 
@@ -86,7 +87,7 @@ export default function ExemploLashDesigner() {
 
 
       <h2 style={{ textAlign: 'center', textTransform: 'uppercase' }}>DEPOIMENTOS
-NOSSOS CLIENTES<br/> NO INSTAGRAM</h2>
+        NOSSOS CLIENTES<br /> NO INSTAGRAM</h2>
 
       <div className={styles.passoss} >
 

@@ -6,7 +6,7 @@
   display: flex;
   align-items: flex-end;
   margin-bottom: -235px;
-  
+
   .divFormAndWomen {
     // max-width: 900px;
     display: flex;
@@ -15,7 +15,14 @@
     z-index: 500;
     margin: 0 auto;
     margin-bottom: 200px;
-    
+
+    .content {
+
+      h1 {
+        text-transform: uppercase;
+      }
+    }
+
     .Modelo {
       width: 384px;
       min-width: 384px;
@@ -80,13 +87,15 @@
     width: 300px;
     margin: 10px;
   }
-  
-  
+
+
   .content {
     width: 100%;
     max-width: 80%;
     margin: 0 auto;
     padding: 0px 5%;
+
+
   }
 }
 
@@ -168,7 +177,7 @@
   .divFormAndWomen {
     display: flex;
     padding-bottom: 0px;
-  
+
   }
 
 
@@ -191,7 +200,7 @@
     }
 
     .divFormAndWomen {
-  
+
       display: flex;
       margin: 0 auto;
       max-width: 320px;
