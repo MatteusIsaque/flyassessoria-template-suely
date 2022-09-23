@@ -1,0 +1,196 @@
+.backgroundFundoImage {
+  // background-image: url(./../../img/fundo_topo.jpg);
+  background-color: white;
+  width: 100%;
+  height: calc(80vh - 4rem);
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 200px;
+
+  .divFormAndWomen {
+    // max-width: 900px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    z-index: 500;
+    margin: 0 auto;
+    padding-bottom: 200px;
+
+    .Modelo {
+      width: 384px;
+      min-width: 384px;
+    }
+
+    h1 {
+      color: var(--roxo-escuro);
+    }
+  }
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  button {
+    margin-top: 20px;
+
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    background: var(--vinho);
+    color: var(--branco);
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 0.05rem;
+    outline: none;
+    border: none;
+    width: 400px;
+    cursor: pointer;
+  }
+}
+
+.btnForm {
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+  background: var(--vinho);
+  color: var(--branco);
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: 0.05rem;
+  outline: none;
+  border: none;
+  width: 400px;
+  cursor: pointer;
+}
+
+@media (max-width: 890px) {
+  .backgroundFundoImage {
+    .divFormAndWomen {
+      .Modelo {
+        width: 400px;
+        min-width: 400px;
+        margin-bottom: -30px;
+      }
+    }
+  }
+}
+
+@media (max-width: 468px) {
+  .btnForm {
+    width: 300px;
+    margin: 10px;
+  }
+  
+  
+  .content {
+    width: 100%;
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 0px 5%;
+  }
+}
+
+
+@media (max-width: 380px) {
+  .backgroundFundoImage {
+    .divFormAndWomen {
+      .Modelo {
+        width: 280px;
+        min-width: 280px;
+        margin-bottom: -120px;
+      }
+    }
+  }
+}
+
+
+// @media(max-width: 1600px) {
+//   .backgroundFundoImage {
+//     height: calc(100vh - 4rem);
+//   }
+// }
+
+
+@media(max-width:1280px) {
+
+  .backgroundFundoImage {
+    padding-bottom: 175px;
+    height: 600px;
+
+    .Modelo {
+      padding: 3rem 3rem 0 3rem;
+    }
+  }
+}
+
+@media(max-width:900px) {
+  .backgroundFundoImage {
+    padding-bottom: 175px;
+    height: 100px;
+
+    .divFormAndWomen {
+      flex-direction: column-reverse;
+      justify-content: flex-end;
+      align-items: center;
+      padding-bottom: 0px !important;
+    }
+
+
+    .content {
+      margin-top: 170px;
+    }
+
+    .Modelo {
+      padding: 0px;
+
+      height: 400px;
+      width: 309px;
+    }
+
+  }
+
+}
+
+@media(max-width: 750px) {
+  .backgroundFundoImage {
+    padding-bottom: 175px;
+    height: 850px;
+  }
+
+}
+
+
+.backgroundFundoImage {
+
+  padding-bottom: 35px;
+  height: 850px;
+
+  .divFormAndWomen {
+    display: flex;
+
+  }
+
+
+  .Modelo {
+    margin-top: 30px;
+    max-width: 280px;
+  }
+
+}
+
+@media (max-width: 360px) {
+
+  .backgroundFundoImage {
+    height: 900px;
+
+    .content {
+      width: 300px;
+    }
+
+    .divFormAndWomen {
+      display: flex;
+      margin: 0 auto;
+      max-width: 320px;
+    }
+  }
+}
