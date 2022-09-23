@@ -16,9 +16,9 @@ export default function Form() {
     e.preventDefault()
 
     const data = {
-      emailTo: 'suelydudafashion@hotmail.com',
+      emailTo: 'flyassef1@gmail.com',
       title: 'Email da campanha venda de cursos',
-      domain: "https://suely-cursos.vercel.app/",
+      domain: "https://flyassessoriaa.vercel.app/",
       email: email,
       number: number,
       messagem: mensagem
