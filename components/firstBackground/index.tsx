@@ -3,7 +3,6 @@ import Image from 'next/image'
 import styles from "./styles.module.scss"
 
 
-import { useEffect, useState } from 'react'
 
 
 import PrimeiraImage from './../../img/logos.png'
@@ -13,17 +12,6 @@ import { ButtonForm } from './buttonForm'
 
 
 export default function FormAndWomen() {
-
-  const [width, setWidth] = useState<number>(0)
-
-
-  useEffect(() => {
-
-    const largura = window.innerWidth;
-
-    setWidth(largura)
-  }, [])
-
 
   return (
     <div className={styles.backgroundFundoImage}>

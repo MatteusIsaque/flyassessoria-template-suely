@@ -2,7 +2,7 @@
   max-width: 900px;
   width: 100%;
   background: var(--branco);
-  margin-top: -155px;
+  margin-top: 0px;
   padding: 40px;
 
   h2 {
@@ -85,4 +85,10 @@
     }
   }
 
+}
+
+@media (max-width: 360px) {
+  .info{
+    top: -30px;
+  }
 }
