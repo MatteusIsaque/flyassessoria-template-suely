@@ -6,7 +6,7 @@ export default function politica() {
     <>
       <header className={styles.HeaderPolitica}>
         <h1 style={{ margin: "20px 0px", textAlign: "center", fontSize: "36px" }} >A sua privacidade é importante para nós.</h1>
-        <p style={{ margin: "40px 0px" }}>Como política da <b style={{ color: "black" }}>suely lash designer</b> temos como prioridade o respeitar a sua privacidade em relação a qualquer informação sua que possamos coletar em nosso site <b style={{ color: "black" }}>http://www.suelylashdesigner.com.br</b>, e outros sites que possuímos e operamos.<br /><br />
+        <p style={{ margin: "40px 0px" }}>Como política da <b style={{ color: "black" }}>Fly Assessoria©</b> temos como prioridade o respeitar a sua privacidade em relação a qualquer informação sua que possamos coletar em nosso site <b style={{ color: "black" }}>http://www.flyassessoriaa.com.br</b>, e outros sites que possuímos e operamos.<br /><br />
           Solicitamos informações pessoais apenas quando realmente precisamos delas para lhe fornecer um serviço. Fazemo-lo por meios justos e legais, com o seu conhecimento e consentimento. Também informamos por que estamos coletando e como iremos utilizar seus dados.<br /><br />
           Para sua segurança retemos as informações coletadas pelo tempo necessário para fornecer os serviços solicitados e propostas. Quando armazenamos dados, protegemos dentro de meios comercialmente aceitáveis para evitar perdas, roubos, acessos indevidos, divulgação, cópia, uso ou modificação não autorizados.<br /><br />
           Não compartilhamos informações de identificação pessoal publicamente ou com terceiros, exceto quando exigido por lei.<br /><br />
@@ -16,7 +16,7 @@ export default function politica() {
         </p>
 
         <h2 style={{ color: 'black', margin: "40px 0px", fontSize: "36px", fontWeight: "600", textAlign: "start" }}>
-          Política de Cookies artesletras
+          Política de Cookies Fly Assessoria©
         </h2>
 
         <h3 style={{ margin: "40px 0px", color: "black", fontSize: "36px", fontWeight: "500", textAlign: "flex-start", margin: "0px", padding: "0px" }}>O que são cookies?</h3>

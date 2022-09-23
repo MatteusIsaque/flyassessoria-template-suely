@@ -33,7 +33,7 @@ export default function Home() {
 
       <Head>
         <title>
-          Suely Lash Designer
+          Fly Assessoria
         </title>
       </Head>
       <main>
