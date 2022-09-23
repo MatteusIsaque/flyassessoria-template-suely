@@ -86,8 +86,9 @@ export default function ExemploLashDesigner() {
       <p style={{ textAlign: 'center' }}>É só aguardar nossa equipe que iremos te auxiliar durante todo o processo até o desfecho do financiamento.</p>
 
 
-      <h2 style={{ textAlign: 'center', textTransform: 'uppercase' }}>DEPOIMENTOS
-        NOSSOS CLIENTES<br /> NO INSTAGRAM</h2>
+      <h2 style={{ textAlign: 'center', textTransform: 'uppercase' }}>DEPOIMENTOS</h2>
+
+      <p style={{ textAlign: 'center', marginTop: '-10px' }}>Nossos clientes no instagram</p>
 
       <div className={styles.passoss} >
 
