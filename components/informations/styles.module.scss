@@ -15,6 +15,7 @@
     h2 {
       margin: 20px 0px;
       text-align: center;
+      font-size: 20px;
     }
 
     div {
@@ -36,7 +37,13 @@
   }
 }
 
-.passos{
+.passos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 5%;
+}
+
+.passoss {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-column-gap: 5%;
@@ -44,7 +51,7 @@
 
 
 @media (max-width: 964px) {
-  .passos{
+  .passos {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 5%;
@@ -52,12 +59,29 @@
 }
 
 @media (max-width: 504px) {
-  .passos{
+  .passos {
     display: grid;
     grid-template-columns: 1fr;
     grid-column-gap: 5%;
   }
 }
+
+@media (max-width: 964px) {
+  .passoss {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 5%;
+  }
+}
+
+@media (max-width: 504px) {
+  .passoss {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-column-gap: 5%;
+  }
+}
+
 
 @media (max-width: 900px) {
   .Info {
@@ -85,10 +109,4 @@
     }
   }
 
-}
-
-@media (max-width: 360px) {
-  .info{
-    top: -30px;
-  }
 }

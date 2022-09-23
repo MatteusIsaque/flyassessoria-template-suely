@@ -10,6 +10,7 @@ import Form from '../form'
 import Primeiro from './../../img/analisamo-os-documentos.jpg'
 import Segundo from './../../img/analise-de-documento.jpg'
 import Terceiro from './../../img/encaminhamento-para-aprovação.jpg'
+import Quarto from './../../img/parcelas.jpeg'
 
 import PrimeiroComentario from './../../img/Camada5.png'
 import SegundoComentario from './../../img/Camada7.png'
@@ -67,6 +68,15 @@ export default function ExemploLashDesigner() {
             <p>Estando tudo certo, seus documentos são enviados para aprovar seu crédito.</p>
           </div>
         </div>
+        <div className={styles.passosParaCredito}>
+          <div>
+            <Image src={Quarto} />
+          </div>
+          <div>
+            <h2>Parcelas</h2>
+            <p>Avaliar as parcelas do empréstimo.</p>
+          </div>
+        </div>
       </div>
 
 
@@ -75,7 +85,10 @@ export default function ExemploLashDesigner() {
       <p style={{ textAlign: 'center' }}>É só aguardar nossa equipe que iremos te auxiliar durante todo o processo até o desfecho do financiamento.</p>
 
 
-      <div className={styles.passos} >
+      <h2 style={{ textAlign: 'center', textTransform: 'uppercase' }}>DEPOIMENTOS
+NOSSOS CLIENTES<br/> NO INSTAGRAM</h2>
+
+      <div className={styles.passoss} >
 
         <div>
           <Image src={PrimeiroComentario} />
