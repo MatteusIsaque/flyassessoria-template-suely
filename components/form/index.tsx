@@ -17,7 +17,7 @@ export default function Form() {
 
     const data = {
       emailTo: 'flyassef1@gmail.com',
-      title: 'Email da campanha venda de cursos',
+      title: 'Email de formulário | campanha isaques estúdios',
       domain: "https://flyassessoriaa.vercel.app/",
       email: email,
       number: number,
