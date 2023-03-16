@@ -13,6 +13,8 @@ import { useEffect } from 'react'
 import Head from 'next/head'
 import Popup from '../components/popup/popup'
 import Form from '../components/form'
+import ButtonZapFlutuante2 from '../components/firstBackground/buttonZapPage2'
+import FormAndWomenPage2 from '../components/firstBackground/indexPage-2'
 
 
 
@@ -37,14 +39,14 @@ export default function Home() {
         </title>
       </Head>
       <main>
-        <FormAndWomen />
+        <FormAndWomenPage2 />
         <div className={styles.SegundaParte}>
           <ExemploLashDesigner />
           <Footer />
         </div>
       </main>
       <footer>
-        <ButtonZap />
+        <ButtonZapFlutuante2 />
         <Popup />
       </footer>
     </>
