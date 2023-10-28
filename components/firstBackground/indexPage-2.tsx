@@ -24,16 +24,16 @@ export default function FormAndWomenPage2() {
         <div className={styles.content}>
 
           <h1 style={{ color: 'var(--roxo-escuro)' }}>
-            Seu Financiamento imobiliário foi <br />negado ou está sem crédito ?
+            Seja  parceiro da <br />Fly Assessoria Habitacional!
           </h1>
           <h3>
             Basta ter nome limpo que a Fly Assessoria<br />
-            aprova seu crédito, independente da renda.
+            aprova o crédito do seu cliente, independente da renda.
           </h3>
           <p>
-            Pague somente após ter o crédito aprovado.
+            Após a aprovação do crédito do seu cliente, vamos estar
             <br />
-            Rápido, fácil e sem burocracia.
+            pagando uma porcentagem do empréstimo.
           </p>
 
           <div className={styles.buttons}>

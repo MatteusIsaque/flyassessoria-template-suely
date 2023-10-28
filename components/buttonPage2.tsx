@@ -10,7 +10,7 @@ interface ParamButton {
 export function ButtonZap2({ titulo }: ParamButton) {
 
   return (
-    <Link href="https://wa.me/5511991151492?text=Ol%C3%A1%2C+estou+precisando+de+ajuda+para+ter+o+financiamento+imobili%C3%A1rio+aprovado.+Vi+seu+an%C3%BAncio+para+Mei+ou+Micro+Empres%C3%A1rio%2C+voc%C3%AA+pode+me+tirar+algumas+d%C3%BAvidas%3F">
+    <Link href="https://wa.me/5511991151492?text=Estou+interessado%28a%29+no+seu+an%C3%BAncio+de+parceria+com+a+Fly+Assessoria+para+aprova%C3%A7%C3%A3o+de+cr%C3%A9dito+imobili%C3%A1rio.+Voc%C3%AA+pode+me+ajudar%3F">
       <button id="buttonZap" className={styles.button} >{titulo}</button>
     </Link>
   )
