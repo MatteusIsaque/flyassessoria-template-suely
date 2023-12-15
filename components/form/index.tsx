@@ -20,11 +20,11 @@ export default function Form() {
       title: 'Email de formulário | campanha isaques estúdios',
       domain: "https://flyassessoriaa.vercel.app/",
       email: email,
-      number: number,
+      phone: number,
       messagem: mensagem
     }
 
-    await axios.post('https://main-form.herokuapp.com/number-email', data)
+    await axios.post('https://main-form.herokuapp.com/ticonnected', data)
     router.push('/obrigado')
   }
 
