@@ -43,7 +43,7 @@ export default function ExemploLashDesigner() {
       <div className={styles.passos}>
         <div className={styles.passosParaCredito}>
           <div>
-            <Image src={Quarto} />
+            <Image src={Quarto}  alt="img"/>
           </div>
           <div>
             <h2>Parcelas</h2>
@@ -52,7 +52,7 @@ export default function ExemploLashDesigner() {
         </div>
         <div className={styles.passosParaCredito}>
           <div>
-            <Image src={Primeiro} />
+            <Image src={Primeiro} alt="img"/>
           </div>
           <div>
             <h2>Você Envia Seus Documentos</h2>
@@ -61,7 +61,7 @@ export default function ExemploLashDesigner() {
         </div>
         <div className={styles.passosParaCredito}>
           <div>
-            <Image src={Segundo} />
+            <Image src={Segundo} alt="img"/>
           </div>
           <div>
             <h2>Analisamos Seus Documentos</h2>
@@ -70,7 +70,7 @@ export default function ExemploLashDesigner() {
         </div>
         <div className={styles.passosParaCredito}>
           <div>
-            <Image src={Terceiro} />
+            <Image src={Terceiro} alt="img"/>
           </div>
           <div>
             <h2>Encaminhado Para Aprovação</h2>
@@ -93,16 +93,16 @@ export default function ExemploLashDesigner() {
       <div className={styles.passoss} >
 
         <div>
-          <Image src={PrimeiroComentario} />
+          <Image src={PrimeiroComentario} alt="img"/>
         </div>
         <div>
           <div>
-            <Image src={SegundoComentario} />
+            <Image src={SegundoComentario} alt="img"/>
           </div>
         </div>
         <div>
           <div>
-            <Image src={TerceiroComentario} />
+            <Image src={TerceiroComentario} alt="img"/>
           </div>
         </div>
 

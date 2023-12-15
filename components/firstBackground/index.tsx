@@ -17,7 +17,7 @@ export default function FormAndWomen() {
     <div className={styles.backgroundFundoImage}>
       <div className={styles.divFormAndWomen}>
         <div className={styles.Modelo}>
-          <Image src={Modelo} layout='responsive' />
+          <Image src={Modelo} layout='responsive' alt="modelo" />
         </div>
 
         <div className={styles.content}>
