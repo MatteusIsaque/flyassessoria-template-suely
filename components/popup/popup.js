@@ -11,7 +11,7 @@ export default function Popup() {
   return (
     <>
     {
-        popup && <div div className={styles.permição} >
+        popup && <div className={styles.permição} >
           <p>Usamos alguns tipos de cookies, ao continuar navegando, você concorda com a nossa&nbsp;
             <Link href="/politica-de-privacidade">Política de Privacidade</Link> .
           </p>
